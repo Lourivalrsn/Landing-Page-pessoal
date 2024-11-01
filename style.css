@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #1d2346;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #000000;
+    background: #f8f8f8;
+    border: 2px solid #282928;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #04060a;
+    color: #080707;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project-card {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #292828;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #05050e;
+}
+
+.animation-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #191f52;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* area do butão de entra em contator */
+
+
+section {
+  width: 100%;
+  max-width: 600px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo do section */
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Garante que o formulário use a largura total */
+}
+
+#contato label {
+  margin-top: 1rem;
+}
+
+#contato input, #contato textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;         /* Largura total para manter a centralização */
+}
+
+#contato textarea {
+  height: 150px;      /* Altura fixa */
+  resize: none;       /* Evita redimensionamento */
+}
+
+#contato button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #292953;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contato button:hover {
+  background-color: #24274b;
+}

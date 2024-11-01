@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha pagina pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="typingText"></h1>
+        <p>Desenvolvedor full stack | Apaixonado por programação</p>
+    </header>
+    
+    
+    <section class="about">
+        <h2>Sobre Mim</h2>
+        <p>olá sou Lourival Rodrigues de Sousa Neto Sou um desenvolvedor full stack com uma paixão sólida por linguagens como Java e C, e também gosto de explorar HTML, CSS e JavaScript para criar interfaces funcionais e atraentes. Minha curiosidade pela programação se une à minha facilidade em me comunicar, o que me permite trabalhar bem em equipe e entender a fundo as necessidades dos projetos.</p>
+    </section>
+    
+    <section class="portfolio">
+        <h2>Projetos</h2>
+        <div class="project-card">
+            <h3>Projeto 1</h3>
+            <p>Desenvolvi um jogo de nave 2D em Java, focado em proporcionar uma experiência dinâmica e divertida. Nesse projeto, o jogador controla uma nave espacial, enfrentando ondas de inimigos em um ambiente espacial. Usei conceitos de orientação a objetos para estruturar o código, organizando as classes em elementos como a nave, inimigos, projéteis e sistema de pontuação.
+            </p>
+        </div>
+        <div class="project-card">
+            <h3>Projeto 2</h3>
+            <p>Esse projeto foi criado com o objetivo de desenvolver uma aplicação web prática e intuitiva para gerenciamento de compromissos. Junto com um grupo de quatro amigos, projetamos e implementamos uma interface funcional utilizando HTML para a estrutura, CSS para a estilização e JavaScript para a interatividade. O sistema permite aos usuários criar, editar e excluir eventos, além de visualizar compromissos futuros de forma organizada.</p>
+        </div>
+        <div class="project-card">
+            <h3>Projeto 3</h3>
+            <p>Desenvolvi um mini jogo de cartas em C, focado em criar uma experiência interativa e divertida. O jogo inclui funcionalidades como embaralhar, distribuir cartas e aplicar regras básicas para simular uma partida de cartas. </p>
+        </div>
+        
+        <!-- Cria um contêiner para animações, geralmente usado para efeitos visuais -->
+        <div class="animation-container"> 
+            <span id="animatedText"></span> 
+        </div>
+        
+        <!-- Início da seção de contato, identificado pelo ID 'contato' -->
+        <section id="contato"> 
+            <h2>Entre em Contato</h2> 
+        
+            <form id="contactForm"> 
+                <label for="nome">Nome:</label> 
+                <input type="text" id="nome" name="nome" required> <!-- Campo de entrada de texto para o nome, obrigatória -->
+        
+                <label for="email">Email:</label> <!-- Rótulo para o campo de entrada do email, associado ao campo pelo ID 'email' -->
+                <input type="email" id="email" name="email" required> 
+        
+                <label for="mensagem">Mensagem:</label> <!-- Rótulo para o campo de entrada da mensagem, associado ao campo pelo ID 'mensagem' -->
+                <textarea id="mensagem" name="mensagem" required></textarea> 
+        
+                <button type="button" onclick="enviarMensagem()">Enviar</button> 
+        </section> 
+        
+        
+        <script src="script.js"></script>
+        
+        
+        <footer>
+            <p>&copy; 2024 lourival Rodrigues de Sousa Neto</p>
+        </footer>
+
+    </body>
+    </html>
+    
